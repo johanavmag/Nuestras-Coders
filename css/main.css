@@ -1,3 +1,4 @@
+/*Formato de linea horizontal*/
 hr { 
    border: 3px solid #4dff4d; 
    border-radius: 200px /8px; 
@@ -10,6 +11,7 @@ h1 {
 	color: #4da5ff;
 	font-family: 'Indie Flower', cursive;
 }
+/*Solo los Div dentro de Div*/
 div div {
 	height:200px ;
 	width:200px ;
@@ -18,6 +20,7 @@ div div {
 	display: inline-block;
 	margin:15px ;
 	text-align: right;
+	/*Filtros de imagen */
 	-webkit-filter: brightness(1.2) drop-shadow(16px 16px 20px black) grayscale(0.1) opacity(0.7);
 }
 .img1 {
@@ -46,15 +49,19 @@ div div {
 }
 
 p{
+	/*Usar text-align para alinear a la derecha o a la izquierda*/
 	text-align: right;
+	/*Usar padding para bajar el texto*/
 	padding-top: 150px;
 	color:#0099ff;
 	font-family:Cursive;
 	font-size: 15px;
 	font-weight: bold;
+	/*Estilo de texto para resaltar*/
 	text-shadow: 1px 1px #000000;
 }
 body{
 	background-image: url("http://www.planwallpaper.com/static/images/black_background_pattern_light_texture_55291_3840x2400.jpg");
+	/*Proporción de la imagen con respecto a la pantalla*/
 	background-size: 100%;
 }
